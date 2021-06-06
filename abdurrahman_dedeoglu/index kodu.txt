@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Bilgisayarın Tarihsel Gelişimi</title>
+    <style>
+        #kutu {
+            color: black;
+            align-self: center;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+            -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+
+        }
+
+        #kutu:hover {
+            color: rgb(88, 146, 0);
+            font-size: 18px;
+            text-shadow: 0 0 10px rgba(101, 255, 96, 0.2);
+        }
+
+        table,
+        th,
+        td {
+            width: 100%;
+            height: 30px;
+
+        }
+
+        .ayar {
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body background="body.png">
+    <div class="header-top" style="background-color: greenyellow">
+        <!--header_top-->
+        <div class="social-icons pull-left">
+            <img src="header-top.png" width="100%" height="100%" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <table>
+                <div class="col-sm-12">
+                    <tr>
+                        <td class="col-sm-4">
+                            <div class="ayar" style="padding-left: 20%;">
+                                <li class="nav"><a href="index.html" class="nav-link px-2 link-secondary"
+                                        id="kutu">Bilgisayarın
+                                        Tarihsel Gelişimi</a></li>
+                            </div>
+                        </td>
+                        <td class="col-sm-4">
+                            <div class="ayar" style="padding-left: 40%;">
+                                <li class="nav"><a href="iletisim.html" class="nav-link px-2 link-secondary"
+                                        id="kutu">İletişim</a>
+                                </li>
+                            </div>
+                        </td>
+                        <td class="col-sm-4">
+                            <div class="ayar" style="padding-left: 40%;">
+                                <li class="nav"><a href="kaynakca.html" class="nav-link px-2 link-secondary"
+                                        id="kutu">Kaynakça</a>
+                                </li>
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </table>
+            <br>
+            <br>
+            <hr>
+            <br><br><br>
+            <div align="center">
+                <h1>Bilgisayarın Tarihsel Gelişimi</h1>
+                <hr width="50%">
+            </div>
+            <br>
+
+
+
+            <div class="col-sm-12">
+
+                <p>
+                    İnsanoğlunun ilk zamanlar ihtiyaçları basit ve azdı. Zaman geçtikçe nüfusun artması
+                    ihtiyaçlarında
+                    artmasına sebep oldu. Bu ihtiyaçlarını karşılamak için değişik alanlarda değişik araçlar
+                    geliştirdi.
+                    Bu
+                    ihtiyaçlarından hesap ile ilgili olan kısmını ilk başlarda parmak hesabı ile, parmak hesabının
+                    yeterli
+                    olmadığı yerlerde de çakıl taşlarını kullanarak karşılamaya çalıştı. Hesap ile ilgili ihtiyaçlar
+                    ekonominin hızla gelişmesi ve yerleşik hayata geçilmesiyle beraber iyice arttı. Birçok farklı
+                    yaklaşım
+                    ve kuram ortaya atıldı ve günümüz bilgisayar teknolojisinin temelleri atılmaya başlamış oldu.
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col-sm-9">
+                        <b> ABACUS: </b>Hesap işlemleri için kullanılan aygıtları bilgisayarın ilk temelleri olarak
+                        kabul
+                        edersek
+                        Abacus İlk bilgisayardır diyebiliriz. Bu hesaplayıcının M.Ö 1000 yıllarında Çinliler
+                        tarafından
+                        kullanıldığı kabul edilmiştir. Günümüzde ilk öğretimde sayı saymayı ve basit matematiksel
+                        işlemleri
+                        öğrenmek içinde kullanılan bu aygıt teller üzerine dizili boncuklardan meydana gelmektedir.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="abakus.png" alt="" title="eski bir abaküs">
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="pascaline.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>PASCALLINE: </b>Hesap makinesi sayılabilecek ilk ciddi icat Fransız matematikçi Blaise Pascal
+                        tarafından
+                        geliştirilmiştir. Babası vergi dairesinde memur olarak çalışan Pascal 16 yaşında iken 1642
+                        yılında
+                        Pascalline adlı hesap makinesini icat etmiştir. Değişik sayıda dişleri olan çarklardan meydana
+                        gelen
+                        bu makine toplama ve çıkarma işlemleri yapabiliyordu.
+                    </div>
+                    <br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>LEIBNIZ ÇARKI: </b>Alman matematikçisi olan Gottfried Wilhelm Leibniz, Pascal’ın 1642 yılında
+                        hazırladığı
+                        hesaplayıcının fonksiyonlarını daha da arttırarak 1671 yılında Leibniz Çarkı adlı aygıtı icat
+                        etti.
+                        Bu aygıt; toplama ve çıkarma işlemlerinin yani sıra bölme, çarpma ve karekök alma işlemlerini de
+                        yapabiliyordu.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="leibnizcarki.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <br><br><br><br><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="fark-makinesi.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>FARK MAKİNASI: </b>Bu konuda ciddi çalışmaları olan bir diğer kişide Charles Babbage
+                        ‘dir.
+                        Babbage matematiksel işlemlerin yanı sıra birçok işlemleri de yapabilen bir makine yapmayı
+                        planlıyordu. İngiliz hükümetinin parasal desteğini de alan Babbage uzun süren çalışmalar
+                        sonunda Fark Makinesini 1830 yılında icat etti. Babbage daha sonra Analitik Makine adını
+                        verdiği proje üzerinde çalışmaya başladı. Bu makine buhar gücü kullanarak otomatik olarak
+                        çalıştırılacak ve diğer hesaplatıcılardan daha fazla fonksiyona sahip olacaktı. Babbage bu
+                        projeden istediği neticeyi alamadan 1871 yılında öldü. Babbage’nin ölümü ile proje yarım
+                        kaldı. Babbage analitik makinede mantıksal işlem birimi, veri depolama birimi, giriş çıkış
+                        üniteleri kullanmayı planlıyordu. Bu mantık günümüzdeki bilgisayarın temel prensibi
+                        olmuştur. Bu sebepten dolayı Babbage’ye bilgisayarın babası denilmiştir. Ada Lovelace
+                        Analitik Makine prensibinde Babbage ile beraber çalışmış, ve ona yardımcı olmuştur. Ada
+                        Lovelace 1842 yılında yazdığı notlarında, Analitik Makinenin, hazırlanacak programlar ile
+                        insanlar tarafından çözümü bilinen problemlerin kolaylıkla çözülebileceğini anlatmıştır. Ada
+                        36 yaşında öldüğünde geriye sadece notları kalmıştır.
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>MARK-I: </b>Amerikalı istatistikçi Herman Hollerith 1890 yılı nüfus sayımında
+                        delikli kart kullanarak geliştirdiği makineyi kullandı. Hollerith’in geliştirdiği bu makine
+                        J.M.Jaquard’in 1806 yılında kullandığı kart sistemini kullanıyordu. Mark-I, kartları verilen
+                        kodlara göre delerek bilgiyi kaydediyor, delikli karttaki bilgiyi tekrar okuyabiliyor ve bu
+                        bilgiyi kullanabiliyordu. Geliştirilen makinenin daha öncekilere göre üstünlükleri vardı. Fakat
+                        arzu edilen hız ve doğru sonuca ulaşılamamıştı. Mark- I insan müdahalesi ile işlem gördüğü için
+                        yari otomatik çalışıyordu. <br> Mark -I ile delikli kartlara işlenen seçim sonuçları istenildiği
+                        kadar okunabildiğinden seçim sonuçlarının değişik parametrelere göre değerlendirilmesi
+                        yapılabiliyordu. Mark –I ile sayımın değerlendirme süresi dörtte bire düştü. <br> Herman
+                        Hollerith
+                        makinesinde yaptığı değişikliklerle üretime 1896 yılında kurduğu “Tabulating Machine Company”
+                        adlı bir şirket ile devam etti. İleride bu firma başka bir
+                        firma ile birleşerek IBM ismini aldı. <br> Harward Üniversitesinden Howard H. Aiken tasarladığı
+                        ASCC
+                        projesi ile IBM firmasına gitti. Bu projeyi biraz daha genişletilerek 1944 yılında MARK – I
+                        üretildi. <br> Mark – I saniyede 5 işlem yapabiliyordu. 18 m uzunluğunda ve 2,5 m yüksekliğinde
+                        idi.
+                        Mark- I insan müdahalesi olmadan sürekli olarak, hazırlanan programı yürüten ilk bilgisayar idi.
+                        Bununla birlikte Mark – I elektronik bir bilgisayar değildi.
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="mark1.png" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <br><br><br>
+                    <div class="col-sm-3">
+                        <img src="Eniac.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>ENIAC: </b>Mark–I den kısa bir süre sonra Pensilvanya Üniversitesinde John Mauchly
+                        ile ENIAC ( Elektronik sayısal Hesaplayıcı ve Doğrulayıcı ) isimli sayısal elektronik
+                        bilgisayarı 1946 yılında tamamladı. Yapımında 18,000 adet elektronik tüp kullanılan ENIAC; 150
+                        kwatt gücünde idi ve 50 ton ağırlığıyla 167 m2 yer kaplıyordu. Saniyede 5000 toplama işlemi
+                        yapabiliyordu. Mark-I’den 1000 kat daha hızlıydı. Eniac askeri amaçla üretildi ve top
+                        mermilerinin menzillerini hesaplamak için kullanıldı.
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>UNIVAC: </b>EDVAC’dan sonra 1951 yılında UNIVAC isimli bilgisayar yapıldı. UNIVAC,
+                        ENIAC bilgisayarlarını yapan kişiler tarafından geliştirildi. UNIVAC ilk defa manyetik teyp
+                        kullanarak verileri depolayan bilgisayar idi.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="univac.png" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <br><br>
+                    <div class="col-sm-3">
+                        <img src="ibm700.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>IBM 700 SERISI: </b>1950’den sonra vakum tüplerinin sık olarak kullanılmaya
+                        başlandığı dönemlerdir. Univac ve IBM 700 serisi vakum tüpler kullanılarak yapılan elektronik
+                        bilgisayarlardır. Vakum tüplerinin çok enerji harcaması, ısınması bu bilgisayarın sürekli arıza
+                        yapmasına sebep oluyordu. Vakum tüplerin boyutlarının da büyük olması başka bir sorundu. Bu
+                        yıllarda program yazabilmek için kullanılan bilgisayar donanımının çok iyi bilinmesi
+                        gerekiyordu. Program yazmak için makine dili kullanılıyordu.
+                    </div>
+                    <br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>PHILCO TRANSAC S-200 IBM 1401: </b>1947 yıllarında transistörün kullanılmaya
+                        başladığı yıllardır. Transistörler vakum tüplere göre az enerji harcayan, az yer kaplayan, fazla
+                        ısınmayan elektronik devre elemanlarıdır. Transistörlerin kullanılmaya başlanması bilgisayar
+                        dünyasına değişik bir renk kattı. Philco Transac S-200 IBM 1401, transistör kullanılarak
+                        üretilen ilk bilgisayarlardır.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="ibm1401.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="ibm360.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>IBM 360: </b>1960 ‘dan sonralar entegre devreler üretilmeye başlandı. Entegreler
+                        binlerce transistörü içerisinde bulunduran devre elemanları idi. Entegrelerin kullanılması;
+                        bilgisayarın boyutlarının küçülmesinin, maliyet azalmasına ve işlem hızının artmasına sebep
+                        oldu. Bu yıllarda manyetik diskler üretildi, entegrelerin kullanımı ile merkezi işlem birimleri
+                        üretilmeye başladı. IBM 360 entegre devre elemanının kullanıldığı ilk bilgisayarlardandır.
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>INTEL 4004 MIKRO İŞLEMCİSİ: </b>1970’den sonra entegre devre teknolojisi gelişimine
+                        devam etti. Ve entegreler birleştirilerek chipler üretilmeye başlandı. Intel 4004 entegrelerin
+                        birleştirilmesiyle hızlanan ilk merkezi işlem birimi sayılabilir.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="intel4004.jpg" alt="" width="100%" title="eski bir abaküs">
+                    </div>
+                    <br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-3">
+                        <img src="apple1.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>APPLE I: </b>1975 yılında piyasaya çıkan apple iki üniversite öğrencisi tarafından bir evin
+                        garajında üretilmiştir. Apple’de klavye ve monitör bulunmuyordu.
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-9">
+                        <b>IBM PC: </b>Günümüzde de söz sahibi olan IBM firması ilk kişisel bilgisayarını 1981 yılında
+                        piyasaya sürdü. Kısa bir zaman diliminde standart haline gelen IBM PC’lerin 4 yıl sonunda bir
+                        milyonuncusu satıldı. Artık dünyanın her tarafında IBM uyumlu bilgisayarlar üretilmeye başlandı.
+                        Üretimi uzak doğu ülkelerinde daha yaygın olarak yapıldı. Yazılımlar da IBM PC uyumlu olarak
+                        yazılmaya başlandı. <br> Bu dönemden günümüze kadar bilgisayar teknolojisi akil almaz bir hızla
+                        ilerledi. İlk üretilen bilgisayarların kullanımı zordu. Fakat bilgisayarların donanımındaki
+                        gelişmeye paralel olarak yazılım alanındaki gelişmeler bilgisayarları bütün insanların
+                        kullanabileceği seviyeye gelmesine sebep oldu. Artık bilgisayar insan hayatının ayrılmaz ve
+                        vazgeçilmez bir parçası oldu.
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="ibm.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <div class="col-sm-3">
+                        <br>
+                        <img src="binary-Language.jpg" width="100%" alt="" title="eski bir abaküs">
+                    </div>
+                    <div class="col-sm-9">
+                        <b>İKİLİ SAYI DÜZENİ: </b>Günümüz bilgisayarlarının temel mantığını oluşturan ikili
+                        sayı sistemi George Boole tarafından geliştirilmiştir. Bu cebir prensibine göre sayılar ikili
+                        sayı sisteminde kullanılırlar. Yani bu sistemde 0 ve 1 sayısından başka sayı yoktur. Bu sayı
+                        sistemine ikili sayı sistemi manasında Binary sayılarda denir.
+                    </div>
+                    
+                    <br><br>
+
+                </div>
+            </div>
+            <div align="center">
+                <br><br><br>
+                <h1>BİLGİSAYARIN GEÇİRDİĞİ EVRELER</h1>
+                <hr width="50%">
+            </div>
+
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4>Birinci Kuşak (Vakum Tüplü) Bilgisayarlar (1946-1959)</h4>
+                        İlk programlama dili makine dilinde yazılmaya başlandı ve bilgiler bellekte saklanıyordu. Bu
+                        kuşağın temel özellikleri şunlardı<br>
+                        <ol>
+                            <li>İşlemci olarak çok büyük vakum tüpleri kullanılırdı</li>
+                            <li>Fazla enerji harcarlardı</li>
+                            <li>Çevreye fazla ısı yayarlardı</li>
+                            <li>Veri programlarını ana belleklerinde tutarlardı</li>
+                            <li>Saklama aracı olarak manyetik teyp kullanılırdı</li>
+                            <li>Programlar fazla detay gerektiren makine dilinde yazılırdı.</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>İkinci Kuşak (Transistörlü) Bilgisayarlar (1959-1964)</h4>
+                        İlk dönemde kullanılan Vakum Tüplerinin yerine transistörler kullanılmaya başlandı.
+                        Bununla beraber daha hızlı ve daha az elektrik harcamaktaydı. ASSEMBLY makine dili
+                        kullanılmaktaydı. Bu kuşağın temel özellikleri şunlardır:<br>
+                        <ol>
+                            <li>İşlemci olarak vakum tüpleri kullanılırdı</li>
+                            <li>Ortalama 10.000 transistör ile çalışırlardı</li>
+                            <li>Az enerji kullanırlardı</li>
+                            <li>Daha az ısı yayarlardı</li>
+                            <li>Transistörler tablolar üzerine el ile monte edilirdi</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>Üçüncü Kuşak (Entegre Devreli) Bilgisayarlar (1964-1970)</h4>
+                        Transistörler bir araya getirilerek Entegre Devreler yapıldı. İlk Merkezi İşlem birimi CPU
+                        yapıldı. Bu kuşağın temel özellikleri şunlardır:<br>
+                        <ol>
+                            <li>İşlemci olarak entegre devreler kullanılırdı</li>
+                            <li>Düşük maliyet ile yüksek güvenirlik sağlanmaya başlandı</li>
+                            <li>Manyetik diskler kullanılmaya başlandı</li>
+                            <li>Program ve veriler ihtiyaç duyulduğu sürece saklanabiliyordu</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>Dördüncü Kuşak (Mikroişlemcili) Bilgisayarlar (1970-?)</h4>
+                        İşlem ve kontrol birimlerinin tümünün bir arada bulunduğu chipler geliştirildi. Bu kuşağın temel
+                        özellikleri şunlardır:<br>
+                        <ol>
+                            <li>Mikroişlemcilerle daha hızlı işlemler yapılmaktadır</li>
+                            <li>Daha fazla bilgi ve program saklanabilen disk ve CD'ler kullanılabilmektedir</li>
+                            <li>Yapay zekâ kavramı hayata geçirilmiştir</li>
+                            <li>Ağ sistemleri oluşturulup bilgisayarlar arasında iletişim sağlanabildi</li>
+                            <li>Bilgisayarlar fiziksel olarak küçülerek kullanışlı ve taşınabilir hale geldi</li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-12">
+                        <h4>Beşinci Kuşak (Yapay Zekâlı) Bilgisayarlar (1990-?)</h4>
+                        Yapay zeka yapma yönünde çalışmalar yapılmaktadır. Bilgisayar teknolojisinde yeni bir araştırma
+                        konusu olan yapay zekâ<b> "kendi kendini denetleyebilen, daha akıllı ve insanlarla tam bir uyum
+                            içerisinde olabilen zeki makineler yapmak"</b> şeklinde tarif edilebilir. Bu alanda yapılan
+                        çalışmalar henüz istenilen düzeyde değildir. Bu kuşaktaki bilgisayarlardan beklenen hedefler
+                        şunlardır:<br>
+                        <ol>
+                            <li>Üretkenliğin düşük olduğu alanlarda, üretkenliği arttırmak amacıyla pratik metotlar
+                                geliştirmek</li>
+                            <li>Kalkınmada ve gelişmede, uluslar arası dayanışmaya katkıda bulunmak</li>
+                            <li>Enerji ve kaynak tasarrufunda bulunmak</li>
+                            <li>Toplumun sorunlarına pratik çareler bularak, toplumsal huzur ve güvenin sağlanmasında
+                                katkıda bulunmak</li>
+                        </ol>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<footer id="fh5co-footer" role="contentinfo">
+    <section>
+        <div class="container">
+            <div class="row">
+            </div>
+
+        </div>
+    </section>
+</footer>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+    </script>
+<script src="C:/Desktop/ticaretsitesi/home/static/js/jquery.scrollUp.min.js"></script>
+
+</html>
